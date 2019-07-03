@@ -1,0 +1,23 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "node + electron 实现音乐播放器",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwwww/music-player.git"
+  },
+  "author": "xwwww",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xwwww/music-player/issues"
+  },
+  "homepage": "https://github.com/xwwww/music-player#readme",
+  "devDependencies": {
+    "electron": "^5.0.4",
+    "nodemon": "^1.19.1"
+  }
+}
