@@ -11,5 +11,6 @@ app.on('ready', ()=>{ // 准备好 electron
     mainWindow.loadFile('index.html')
     ipcMain.on('message', (event, arg) => {
         mainWindow.send('reply', 'wolrd')
+        // event.sender.send('reply', 'jello world')
     })
 })          
